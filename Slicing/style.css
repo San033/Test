@@ -2,13 +2,14 @@
     --blur-light: #FFFFFF;
     --monochromatic-01: #1A1A1A;
 }
+
 html,
 body {
     margin: 0;
     padding: 0;
     font-family: 'Gothic A1', sans-serif;
     background-color: #FFFFFFCC;
-    color: #0F0F0F ;
+    color: #0F0F0F;
 }
 
 #status-bar {
@@ -17,13 +18,13 @@ body {
 }
 
 .navbar {
-    display:flex;
+    display: flex;
     width: 100vw;
     flex-direction: column;
     background: var(rgba(255, 255, 255, 0.80));
     backdrop-filter: blur(12px);
     position: fixed;
-} 
+}
 
 .large-title-bar {
     display: flex;
@@ -41,7 +42,7 @@ body {
     justify-content: center;
 }
 
-.large-title > h1 {
+.large-title>h1 {
     color: var(#0F0F0F);
     font-family: Gothic A1;
     font-size: 26px;
@@ -50,7 +51,7 @@ body {
     margin: 0px;
 }
 
-.large-title > h5 {
+.large-title>h5 {
     color: var(#0F0F0F);
     font-family: Gothic A1;
     font-size: 16px;
@@ -71,10 +72,10 @@ body {
     flex-direction: row;
     align-items: flex-start;
     gap: 4px;
-    
+
 }
 
-.image1 > img {
+.image1>img {
     width: 171px;
     height: 272px;
     flex-shrink: 0;
@@ -107,7 +108,7 @@ body {
 
 }
 
-.card1 >h4 {
+.card1>h4 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -117,14 +118,15 @@ body {
 
 }
 
-.card1 > h5 {
+.card1>h5 {
     color: var(--font-mid, #0F0F0F);
     /* Paragraph/Regular/Small */
     font-family: Gothic A1;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px; /* 142.857% */
+    line-height: 20px;
+    /* 142.857% */
     align-self: stretch;
     margin-top: 0;
     margin-bottom: 95px;
@@ -138,10 +140,10 @@ body {
     flex-direction: row;
     align-items: flex-start;
     gap: 4px;
-    
+
 }
 
-.image2 > img {
+.image2>img {
     width: 171px;
     height: 272px;
     flex-shrink: 0;
@@ -174,7 +176,7 @@ body {
 
 }
 
-.card2 >h4 {
+.card2>h4 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -184,14 +186,15 @@ body {
 
 }
 
-.card2 > h5 {
+.card2>h5 {
     color: var(--font-mid, #0F0F0F);
     /* Paragraph/Regular/Small */
     font-family: Gothic A1;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px; /* 142.857% */
+    line-height: 20px;
+    /* 142.857% */
     align-self: stretch;
     margin-top: 0;
     margin-bottom: 95px;
@@ -205,10 +208,10 @@ body {
     flex-direction: row;
     align-items: flex-start;
     gap: 4px;
-    
+
 }
 
-.image3 > img {
+.image3>img {
     width: 171px;
     height: 272px;
     flex-shrink: 0;
@@ -241,7 +244,7 @@ body {
 
 }
 
-.card3 >h4 {
+.card3>h4 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -251,14 +254,15 @@ body {
 
 }
 
-.card3 > h5 {
+.card3>h5 {
     color: var(--font-mid, #0F0F0F);
     /* Paragraph/Regular/Small */
     font-family: Gothic A1;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    line-height: 20px; /* 142.857% */
+    line-height: 20px;
+    /* 142.857% */
     align-self: stretch;
     margin-top: 0;
     margin-bottom: 95px;
@@ -293,7 +297,7 @@ body {
     align-items: center;
     flex-shrink: 0;
     margin: 0;
-    
+
 }
 
 .heart {
@@ -358,7 +362,7 @@ body {
     width: 134px;
     height: 5px;
     flex-shrink: 0;
-    background:#1A1A1A;
+    background: #1A1A1A;
     left: 0px;
     top: 760px;
     z-index: 1;
